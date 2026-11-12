@@ -1,0 +1,22 @@
+name: play_store_info
+description: >-
+  Look up public Google Play Store details (name, icon, developer, rating,
+  price) by application id. No API key. Returns null instead of throwing.
+version: 0.1.0
+repository: https://github.com/RekanAnwar/play_store_info
+issue_tracker: https://github.com/RekanAnwar/play_store_info/issues
+topics:
+  - google-play
+  - android
+  - scraper
+  - app-info
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  dio: ^5.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0
